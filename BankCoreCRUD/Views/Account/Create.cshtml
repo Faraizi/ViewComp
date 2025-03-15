@@ -1,0 +1,50 @@
+﻿@model BankCoreCRUD.Models.Account
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Account</h4>
+<hr />
+<div class="row row-cols-md-1 row-cols-md-2">
+    <div class="col-md">
+        <form asp-action="Create" asp-controller="Account">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Branch" class="control-label"></label>
+                <input asp-for="AccType" class="form-control" />
+                <span asp-validation-for="AccType" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <div id="productsDiv" class="row row-cols-2 g-4">
+                    @await Component.InvokeAsync("AccountWithCustomers", new { account = new Account(), customer = new Customer() })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md">
+        <div class="row">
+            <div class="col-md-12 bg-warning-subtle p-3">
+                @await Html.PartialAsync("_AddAccount")
+            </div>
+            <div class="col-md-12" style="height:auto !important"></div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12">
+    <a asp-action="Index" class="btn btn-link float-end">Back to List</a>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

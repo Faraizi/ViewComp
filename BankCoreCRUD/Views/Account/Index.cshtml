@@ -1,0 +1,53 @@
+﻿@model IEnumerable<BankCoreCRUD.Models.Account>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Accounts</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary px-4 rounded-0">Add New Account</a>
+</p>
+
+<div class="row row-cols-2 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col" style="border:1px solid grey;">
+            <h2 class="h2">@Html.DisplayNameFor(model => model.Branch): @Html.DisplayFor(modelItem => item.AccType)</h2>
+            <br />
+            <div class="row row-cols-2 g-4">
+                @foreach (var aProduct in item.Customers!)
+                {
+                    <div class="col">
+                        <div class="card">
+                            <img src="@aProduct.ImageUrl" class="card-img-top" alt="@aProduct.CustName">
+                            <div class="card-body">
+                                <h5 class="card-title">@aProduct.CustName</h5>
+                                <p class="card-text">
+                                    Balance:&nbsp;@aProduct.Balance
+                                    <br />
+                                    @if (aProduct.IsActive)
+                                    {
+                                        <span>Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Inactive</span>
+                                    }
+                                    <br />
+                                    Product Model: @aProduct.Transaction!.TranName;
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">DOB @aProduct.DOB.ToString("MMMM dd, yyyy")</small>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <a asp-action="Edit" asp-route-id="@item.AcctID" class="btn btn-warning float-start px-4 rounded-0 m-2">Edit</a>
+            <a asp-action="Delete" asp-route-id="@item.AcctID" class="btn btn-danger float-end px-4 rounded-0 m-2">Delete</a>
+        </div>
+    }
+</div>

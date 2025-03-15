@@ -1,0 +1,55 @@
+﻿@model BankCoreCRUD.Models.Account
+
+@if (Model.AccType is not null)
+{
+    if (Model.Customers is not null)
+    {
+        if (Model.Customers.Count > 0)
+        {
+            @for (int i = 0; i < Model.Customers.Count; i++)
+            {
+                if (Model.Customers[i].CustName is not null)
+                {
+                    <div class="col">
+                        <div class="card">
+                            <img src="@Model.Customers[i].ImageUrl" class="card-img-top" alt="@Model.Customers[i].CustName">
+                            <div class="card-body">
+                                <h5 class="card-title">@Model.Customers[i].CustName</h5>
+                                <p class="card-text">
+                                    Balance:&nbsp;@Model.Customers[i].Balance
+                                    <br />
+                                    @if (Model.Customers[i].IsActive)
+                                    {
+                                        <span>Available</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Not Available</span>
+                                    }
+                                    <br />
+                                    Product Model: @Model.Customers[i].Transaction!.TranName;
+                                    <div class="visually-hidden" hidden="hidden">
+                                        <input type="hidden" class="form-control" asp-for="@Model.Customers[i].CustName" value="@Model.Customers[i].CustName" />
+                                        <input type="hidden" class="form-control" asp-for="@Model.Customers[i].ImageUrl" value="@Model.Customers[i].ImageUrl" />
+                                        <input type="hidden" class="form-control" asp-for="@Model.Customers[i].Balance" value="@Model.Customers[i].Balance" />
+                                        <input type="hidden" class="form-control" asp-for="@Model.Customers[i].IsActive" value="@Model.Customers[i].IsActive">
+                                        <input type="hidden" class="form-control" asp-for="@Model.Customers[i].TranID" value="@Model.Customers[i].TranID" />
+                                        <input type="hidden" class="form-control" asp-for="@Model.Customers[i].DOB" value="@Model.Customers[i].DOB" />
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Added on @Model.Customers[i].DOB.ToString("MMMM dd, yyyy")</small>
+                                <button type="button" class="bg-transparent border-0 p-0 float-end" title="Delete" onclick="removeMe(this)"><i class="bi bi-x-circle-fill text-danger"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        }
+    }
+}
+else
+{
+    <h4 class="h4 text-center">No Product Added</h4>
+}

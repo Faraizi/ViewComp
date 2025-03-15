@@ -1,0 +1,36 @@
+﻿@model IEnumerable<BankCoreCRUD.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create Account</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TranName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TranName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.TranID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.TranID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.TranID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
