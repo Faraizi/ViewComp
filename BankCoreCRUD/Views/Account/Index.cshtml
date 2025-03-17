@@ -14,7 +14,7 @@
     @foreach (var item in Model)
     {
         <div class="col" style="border:1px solid grey;">
-            <h2 class="h2">@Html.DisplayNameFor(model => model.Branch): @Html.DisplayFor(modelItem => item.AccType)</h2>
+            <h2 class="h2">@Html.DisplayNameFor(model => model.Branch): @Html.DisplayFor(modelItem => item.Branch)</h2>
             <br />
             <div class="row row-cols-2 g-4">
                 @foreach (var aProduct in item.Customers!)
@@ -36,7 +36,7 @@
                                         <span>Inactive</span>
                                     }
                                     <br />
-                                    Product Model: @aProduct.Transaction!.TranName;
+                                    Product Model: @aProduct.Transaction!.AccType;
                                 </p>
                             </div>
                             <div class="card-footer">

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KrlkzGnsKSxwCKqZRLF5C2vFSu+XryEaktttuSu8Aas=",
+  "Hash": "MzC4XSJpxHxJFfAVpxE5Lzi+LITVJx1GeGVCtjJSNj8=",
   "Source": "BankCoreCRUD",
   "BasePath": "_content/BankCoreCRUD",
   "Mode": "Default",
@@ -227,6 +227,48 @@
       "OriginalItemSpec": "wwwroot\\images\\Screenshot 2025-02-28 003306.png"
     },
     {
+      "Identity": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\images\\unnamed.webp",
+      "SourceId": "BankCoreCRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\",
+      "BasePath": "_content/BankCoreCRUD",
+      "RelativePath": "images/unnamed#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "chwqucuxr9",
+      "Integrity": "ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\unnamed.webp"
+    },
+    {
+      "Identity": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\images\\WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg",
+      "SourceId": "BankCoreCRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\",
+      "BasePath": "_content/BankCoreCRUD",
+      "RelativePath": "images/WhatsApp Image 2025-01-30 at 21.40.28_046e67d8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5t9f7eyy69",
+      "Integrity": "lyGO70gB22uFixkSNTrD+LUIpNwfsrWsjYpPymSVsx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg"
+    },
+    {
       "Identity": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\js\\site.js",
       "SourceId": "BankCoreCRUD",
       "SourceType": "Discovered",
@@ -241,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w97j9hrf7z",
-      "Integrity": "bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe+oGedJZQ=",
+      "Fingerprint": "nxny0m1oc6",
+      "Integrity": "VSp09WP683SH8nZCRICra3Orfu+QIhv7tzAMsajhBvc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1797,7 +1839,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 16:50:51 GMT"
+          "Value": "Mon, 17 Mar 2025 14:35:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1834,7 +1876,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 16:50:51 GMT"
+          "Value": "Mon, 17 Mar 2025 14:35:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1879,7 +1921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 16:56:58 GMT"
+          "Value": "Mon, 17 Mar 2025 15:50:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1916,7 +1958,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 16:56:58 GMT"
+          "Value": "Mon, 17 Mar 2025 15:50:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2267,6 +2309,170 @@
       ]
     },
     {
+      "Route": "images/unnamed.chwqucuxr9.webp",
+      "AssetFile": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\images\\unnamed.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 15:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "chwqucuxr9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/unnamed.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE="
+        }
+      ]
+    },
+    {
+      "Route": "images/unnamed.webp",
+      "AssetFile": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\images\\unnamed.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 15:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE="
+        }
+      ]
+    },
+    {
+      "Route": "images/WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.5t9f7eyy69.jpg",
+      "AssetFile": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\images\\WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyGO70gB22uFixkSNTrD+LUIpNwfsrWsjYpPymSVsx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 15:33:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5t9f7eyy69"
+        },
+        {
+          "Name": "label",
+          "Value": "images/WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyGO70gB22uFixkSNTrD+LUIpNwfsrWsjYpPymSVsx0="
+        }
+      ]
+    },
+    {
+      "Route": "images/WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg",
+      "AssetFile": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\images\\WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyGO70gB22uFixkSNTrD+LUIpNwfsrWsjYpPymSVsx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 15:33:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyGO70gB22uFixkSNTrD+LUIpNwfsrWsjYpPymSVsx0="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -2277,7 +2483,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4651"
+          "Value": "9603"
         },
         {
           "Name": "Content-Type",
@@ -2285,11 +2491,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe+oGedJZQ=\""
+          "Value": "\"VSp09WP683SH8nZCRICra3Orfu+QIhv7tzAMsajhBvc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 04:21:56 GMT"
+          "Value": "Mon, 17 Mar 2025 15:12:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2299,12 +2505,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe+oGedJZQ="
+          "Value": "sha256-VSp09WP683SH8nZCRICra3Orfu+QIhv7tzAMsajhBvc="
         }
       ]
     },
     {
-      "Route": "js/site.w97j9hrf7z.js",
+      "Route": "js/site.nxny0m1oc6.js",
       "AssetFile": "C:\\Users\\sahad\\Downloads\\BankCoreCRUD\\BankCoreCRUD\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2314,7 +2520,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4651"
+          "Value": "9603"
         },
         {
           "Name": "Content-Type",
@@ -2322,11 +2528,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe+oGedJZQ=\""
+          "Value": "\"VSp09WP683SH8nZCRICra3Orfu+QIhv7tzAMsajhBvc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 04:21:56 GMT"
+          "Value": "Mon, 17 Mar 2025 15:12:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2336,7 +2542,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w97j9hrf7z"
+          "Value": "nxny0m1oc6"
         },
         {
           "Name": "label",
@@ -2344,7 +2550,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe+oGedJZQ="
+          "Value": "sha256-VSp09WP683SH8nZCRICra3Orfu+QIhv7tzAMsajhBvc="
         }
       ]
     },

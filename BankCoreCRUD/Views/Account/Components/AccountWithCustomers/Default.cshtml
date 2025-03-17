@@ -1,6 +1,6 @@
 ﻿@model BankCoreCRUD.Models.Account
 
-@if (Model.AccType is not null)
+@if (Model.Branch is not null)
 {
     if (Model.Customers is not null)
     {
@@ -27,7 +27,7 @@
                                         <span>Not Available</span>
                                     }
                                     <br />
-                                    Product Model: @Model.Customers[i].Transaction!.TranName;
+                                    Product Model: @Model.Customers[i].Transaction!.AccType;
                                     <div class="visually-hidden" hidden="hidden">
                                         <input type="hidden" class="form-control" asp-for="@Model.Customers[i].CustName" value="@Model.Customers[i].CustName" />
                                         <input type="hidden" class="form-control" asp-for="@Model.Customers[i].ImageUrl" value="@Model.Customers[i].ImageUrl" />

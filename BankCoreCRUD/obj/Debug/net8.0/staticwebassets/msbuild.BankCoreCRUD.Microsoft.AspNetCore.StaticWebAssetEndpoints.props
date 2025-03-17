@@ -40,25 +40,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2007-Volkswagen-GTI-W12-Concept-003-1080.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2/1cPUdflzATMZ0/awKpiA/8HCCdJg\u002BGaxjwUqZf2Es="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"318894"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222/1cPUdflzATMZ0/awKpiA/8HCCdJg\u002BGaxjwUqZf2Es=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 16:50:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"318894"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222/1cPUdflzATMZ0/awKpiA/8HCCdJg\u002BGaxjwUqZf2Es=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 14:35:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/2007-Volkswagen-GTI-W12-Concept-003-1080.vj925zdcg2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2007-Volkswagen-GTI-W12-Concept-003-1080.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vj925zdcg2"},{"Name":"integrity","Value":"sha256-2/1cPUdflzATMZ0/awKpiA/8HCCdJg\u002BGaxjwUqZf2Es="},{"Name":"label","Value":"_content/BankCoreCRUD/images/2007-Volkswagen-GTI-W12-Concept-003-1080.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"318894"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222/1cPUdflzATMZ0/awKpiA/8HCCdJg\u002BGaxjwUqZf2Es=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 16:50:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"318894"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222/1cPUdflzATMZ0/awKpiA/8HCCdJg\u002BGaxjwUqZf2Es=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 14:35:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/download.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7zFRaLWUsjn0\u002BeW\u002BXnwJk9KB7ssQzXrpvbKJ3JPMeTQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"605440"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227zFRaLWUsjn0\u002BeW\u002BXnwJk9KB7ssQzXrpvbKJ3JPMeTQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 16:56:58 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"605440"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227zFRaLWUsjn0\u002BeW\u002BXnwJk9KB7ssQzXrpvbKJ3JPMeTQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:50:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/download.pmeoini9gj.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pmeoini9gj"},{"Name":"integrity","Value":"sha256-7zFRaLWUsjn0\u002BeW\u002BXnwJk9KB7ssQzXrpvbKJ3JPMeTQ="},{"Name":"label","Value":"_content/BankCoreCRUD/images/download.jpeg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"605440"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227zFRaLWUsjn0\u002BeW\u002BXnwJk9KB7ssQzXrpvbKJ3JPMeTQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 16:56:58 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"605440"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227zFRaLWUsjn0\u002BeW\u002BXnwJk9KB7ssQzXrpvbKJ3JPMeTQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:50:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/Image_not_available.hb62k4i6or.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Image_not_available.png'))</AssetFile>
@@ -108,17 +108,41 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EaNi7baIghBJ\u002Btuh6gZ4s6JeMzKUcpYWGkpGSWws9Es="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"716210"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EaNi7baIghBJ\u002Btuh6gZ4s6JeMzKUcpYWGkpGSWws9Es=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 04:35:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/unnamed.chwqucuxr9.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\unnamed.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"chwqucuxr9"},{"Name":"integrity","Value":"sha256-ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE="},{"Name":"label","Value":"_content/BankCoreCRUD/images/unnamed.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47914"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:44:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/unnamed.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\unnamed.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47914"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022ECvzW7Tqb/2HCY360D5R0TDDMIXVTnxOrcPtja7C4aE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:44:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.5t9f7eyy69.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5t9f7eyy69"},{"Name":"integrity","Value":"sha256-lyGO70gB22uFixkSNTrD\u002BLUIpNwfsrWsjYpPymSVsx0="},{"Name":"label","Value":"_content/BankCoreCRUD/images/WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"123348"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lyGO70gB22uFixkSNTrD\u002BLUIpNwfsrWsjYpPymSVsx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:33:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/images/WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lyGO70gB22uFixkSNTrD\u002BLUIpNwfsrWsjYpPymSVsx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"123348"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lyGO70gB22uFixkSNTrD\u002BLUIpNwfsrWsjYpPymSVsx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:33:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe\u002BoGedJZQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4651"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe\u002BoGedJZQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 04:21:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VSp09WP683SH8nZCRICra3Orfu\u002BQIhv7tzAMsajhBvc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9603"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VSp09WP683SH8nZCRICra3Orfu\u002BQIhv7tzAMsajhBvc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:12:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/js/site.w97j9hrf7z.js">
+    <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/js/site.nxny0m1oc6.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w97j9hrf7z"},{"Name":"integrity","Value":"sha256-bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe\u002BoGedJZQ="},{"Name":"label","Value":"_content/BankCoreCRUD/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4651"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bFenZUeVRHC0wOHdsWzmJx51FLJ0ByGcHNe\u002BoGedJZQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 04:21:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nxny0m1oc6"},{"Name":"integrity","Value":"sha256-VSp09WP683SH8nZCRICra3Orfu\u002BQIhv7tzAMsajhBvc="},{"Name":"label","Value":"_content/BankCoreCRUD/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9603"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VSp09WP683SH8nZCRICra3Orfu\u002BQIhv7tzAMsajhBvc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 15:12:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BankCoreCRUD/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

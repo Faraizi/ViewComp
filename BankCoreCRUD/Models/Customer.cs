@@ -24,7 +24,7 @@ namespace BankCoreCRUD.Models
         public string ImageUrl { get; set; }
 
         [ForeignKey(nameof(Account))]
-        public int AccID { get; set; }
+        public int AcctID { get; set; }
 
         [ForeignKey(nameof(Transaction))]
         public int TranID { get; set; }

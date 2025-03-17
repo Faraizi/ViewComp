@@ -25,7 +25,7 @@ namespace BankCoreCRUD.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TranID,TranName")] Transaction transaction)
+        public async Task<IActionResult> Create([Bind("TranID,AccType")] Transaction transaction)
         {
             if (ModelState.IsValid)
             {
@@ -53,7 +53,7 @@ namespace BankCoreCRUD.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ModelId,ModelName")] Transaction transaction)
+        public async Task<IActionResult> Edit(int id, [Bind("TranID,AccType")] Transaction transaction)
         {
             if (id != transaction.TranID)
             {

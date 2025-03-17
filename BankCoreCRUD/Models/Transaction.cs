@@ -8,8 +8,8 @@ namespace BankCoreCRUD.Models
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int TranID { get; set; }
-        [Required, MaxLength(50),Display(Name ="Transaction Name")]
-        public string TranName { get; set; }
+        [Required, MaxLength(50),Display(Name ="Account Type")]
+        public string AccType { get; set; }
         public IList<Customer>? Customers { get; set; }
     }
 }

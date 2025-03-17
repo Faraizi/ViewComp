@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BankCoreCRUD.Migrations
 {
     [DbContext(typeof(AccountContext))]
-    [Migration("20250313051700_initialModel")]
-    partial class initialModel
+    [Migration("20250317153324_initialmodels")]
+    partial class initialmodels
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,7 @@ namespace BankCoreCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AcctID"));
 
-                    b.Property<string>("AccType")
+                    b.Property<string>("Branch")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -92,7 +92,7 @@ namespace BankCoreCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TranID"));
 
-                    b.Property<string>("TranName")
+                    b.Property<string>("AccType")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");

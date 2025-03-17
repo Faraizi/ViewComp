@@ -6,6 +6,8 @@ wwwroot\images\Image_not_available.png
 wwwroot\images\iphone16.jpg
 wwwroot\images\Screenshot 2025-02-28 002936.png
 wwwroot\images\Screenshot 2025-02-28 003306.png
+wwwroot\images\unnamed.webp
+wwwroot\images\WhatsApp Image 2025-01-30 at 21.40.28_046e67d8.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

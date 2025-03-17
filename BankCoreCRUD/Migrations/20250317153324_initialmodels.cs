@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BankCoreCRUD.Migrations
 {
     /// <inheritdoc />
-    public partial class initialModel : Migration
+    public partial class initialmodels : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,7 +17,7 @@ namespace BankCoreCRUD.Migrations
                 {
                     AcctID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AccType = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                    Branch = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -30,7 +30,7 @@ namespace BankCoreCRUD.Migrations
                 {
                     TranID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    TranName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                    AccType = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {

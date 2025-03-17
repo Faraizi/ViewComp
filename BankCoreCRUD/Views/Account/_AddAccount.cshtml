@@ -8,20 +8,20 @@
     <div class="col-md">
         <div class="input-group mb-4">
             <span class="input-group-text">Name</span>
-            <input type="text" id="productNameId" class="form-control" placeholder="Product Name" />
+            <input type="text" id="productNameId" class="form-control" placeholder="Account Name" />
         </div>
         <div class="input-group mb-4">
             <span class="input-group-text">Balance</span>
             <input type="number" id="productPriceId" class="form-control" placeholder="0.00" />
         </div>
         <div class="form-check mb-4">
-            <input class="form-check-input" type="checkbox" value="" id="isAvailableId" />
+            <input class="form-check-input" type="checkbox" value="" id="Is Active?" />
             <label class="form-check-label" for="isAvailableId">
                 Is Active?
             </label>
         </div>
         <div class="input-group mb-4">
-            <label class="input-group-text" for="modelSelect">Account</label>
+            <label class="input-group-text" for="modelSelect">Type</label>
             <select class="form-select" id="modelSelect" asp-items="ViewBag.Models">
                 <option selected disabled>Choose...</option>
             </select>

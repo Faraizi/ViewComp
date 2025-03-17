@@ -574,3 +574,4 @@ C:\Users\sahad\Downloads\BankCoreCRUD\BankCoreCRUD\obj\Debug\net8.0\refint\BankC
 C:\Users\sahad\Downloads\BankCoreCRUD\BankCoreCRUD\obj\Debug\net8.0\BankCoreCRUD.pdb
 C:\Users\sahad\Downloads\BankCoreCRUD\BankCoreCRUD\obj\Debug\net8.0\BankCoreCRUD.genruntimeconfig.cache
 C:\Users\sahad\Downloads\BankCoreCRUD\BankCoreCRUD\obj\Debug\net8.0\ref\BankCoreCRUD.dll
+C:\Users\sahad\Downloads\BankCoreCRUD\BankCoreCRUD\obj\Debug\net8.0\BankCoreCRUD.sourcelink.json

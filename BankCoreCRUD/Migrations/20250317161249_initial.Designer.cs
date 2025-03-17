@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BankCoreCRUD.Migrations
 {
     [DbContext(typeof(AccountContext))]
-    [Migration("20250315060457_initial")]
+    [Migration("20250317161249_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -33,14 +33,10 @@ namespace BankCoreCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AcctID"));
 
-                    b.Property<string>("AccType")
+                    b.Property<string>("Branch")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Branch")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("AcctID");
 
@@ -55,7 +51,7 @@ namespace BankCoreCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustID"));
 
-                    b.Property<int>("AccID")
+                    b.Property<int>("AcctID")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Balance")
@@ -81,7 +77,7 @@ namespace BankCoreCRUD.Migrations
 
                     b.HasKey("CustID");
 
-                    b.HasIndex("AccID");
+                    b.HasIndex("AcctID");
 
                     b.HasIndex("TranID");
 
@@ -96,7 +92,7 @@ namespace BankCoreCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TranID"));
 
-                    b.Property<string>("TranName")
+                    b.Property<string>("AccType")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -110,7 +106,7 @@ namespace BankCoreCRUD.Migrations
                 {
                     b.HasOne("BankCoreCRUD.Models.Account", "Account")
                         .WithMany("Customers")
-                        .HasForeignKey("AccID")
+                        .HasForeignKey("AcctID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
